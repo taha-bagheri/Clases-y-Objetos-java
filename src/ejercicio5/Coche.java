@@ -29,9 +29,9 @@ public class Coche {
 
 	// Método para acelerar el coche
 	public void acelerar(int cantidad) {
-		if (this.velocidad + cantidad <= 120) { // Comprobamos que no se sobrepase la velocidad máxima
+		if (this.velocidad + cantidad <= 120) { // Comprobamos que no se sobrepase la velocidad máxima 
 			this.velocidad += cantidad;
-		}
+		} 
 	}
 
 	// Método para frenar el coche
